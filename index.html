@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>smart login system</title>
+</head>
+<body class=" bg ">
+    <div class="smart-app my-3 mx-auto py-5 px-0 d-flex align-items-center justify-content-center row">
+        <div class="login text-white text-center d-flex flex-column justify-content-center col-8 col-md-6 ">
+
+                <h1 class="text-capitalize my-2 title">smart login system</h1>
+
+                <div action="" class="form d-flex flex-column" onsubmit="onload()">
+
+                    <input class="border border-1 rounded-2 " type="email" id="signEmail" placeholder="Enter your email">
+                    <input class="border border-1 rounded-2" type="password" id="signPass" placeholder="Enter your password">
+
+                    <div id="result-sign">
+                        <span></span>
+                    </div>
+
+                    <button id="submit" onclick="searchUser()" class="btn btn-outline-info text-decoration-none">login</button>
+                    <label for=""> Don't have an account ? <a href="Sgin-up.html" class="text-white text">Sign Up</a></label>
+
+                </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script></body>
+</html>
